@@ -1,0 +1,33 @@
+/* AllTheBooks.css */
+
+:root {
+    --primary-color: #641e1e; /* Colore principale */
+    --secondary-color: #c39a1c; /* Colore secondario */
+    --text-color: #efeee9; /* Colore del testo */
+    --background-color: #3d2f22; /* Colore di sfondo */
+  }
+  
+  .card {
+    background-color: var(--background-color); /* Colore di sfondo delle schede */
+    color: var(--text-color); /* Colore del testo delle schede */
+    border: 2px solid var(--primary-color); /* Bordo delle schede */
+  }
+  
+  .card-title {
+    color: var(--primary-color); /* Colore del titolo delle schede */
+  }
+  
+  .card-body {
+    border-top: 2px solid var(--primary-color); /* Bordo superiore del corpo delle schede */
+  }
+  
+  .selected-book {
+    background-color: var(--background-color); /* Colore di sfondo della sezione del libro selezionato */
+    color: var(--text-color); /* Colore del testo della sezione del libro selezionato */
+    border: 2px solid var(--primary-color); /* Bordo della sezione del libro selezionato */
+  }
+  
+  .selected-book-details {
+    border-top: 2px solid var(--primary-color); /* Bordo superiore dei dettagli del libro selezionato */
+  }
+  

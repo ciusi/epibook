@@ -1,0 +1,25 @@
+.custom-navbar.light {
+  background-color: lightgray;
+}
+
+.custom-navbar.dark {
+  background-color: darkgray;
+}
+
+.search-bar {
+  width: 300px;
+  max-width: 100%;
+}
+
+.navbar .nav-link {
+  margin-right: 15px;
+}
+
+.navbar .ml-auto {
+  margin-left: auto !important;
+  margin-right: 15px; /* Aggiunge spazio tra la barra di ricerca e gli altri elementi */
+}
+
+.navbar .d-flex.align-items-center {
+  margin-left: 15px; /* Aggiunge spazio tra la barra di ricerca e l'interruttore */
+}

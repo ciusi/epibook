@@ -1,0 +1,70 @@
+.App {
+  padding: 20px;
+}
+
+.App.light {
+  background-color: white;
+  color: black;
+}
+
+.App.dark {
+  background-color: black;
+  color: white;
+}
+
+.custom-navbar.light {
+  background-color: lightgray;
+}
+
+.custom-navbar.dark {
+  background-color: darkgray;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.book {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.book:hover {
+  transform: scale(1.05);
+}
+
+.selected-books-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.selected-book {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.selected-book-image {
+  max-width: 100%;
+  height: 100px; /* Riduci l'altezza dell'immagine */
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.selected-book-details {
+  margin-top: 10px;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
